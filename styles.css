@@ -1,6 +1,6 @@
 button {
-        width: 80;
-        height: 80;
+        width: 60;
+        height: 60;
         font-size: 25;
         font-style: italic;
         border: solid;
@@ -8,21 +8,21 @@ button {
 
 }
 .cal{
-        height: 165;
-        width: 165;
+        height: 115;
+        width: 115;
        
 }
  
  body{
         padding: 3%;
         padding-left: 30%;
-     
+        align-self: center;
  }     
 .textinput {
-        width: 400;
-        height: 70;
+        width: 450;
+        height: 50;
         border: 5%;
-        margin-left: 15%;
+        
         font-size: 25;
         background-attachment: fixed;
         border-color: rgb(0, 7, 8);
@@ -31,11 +31,14 @@ button {
 }
       
 .main {
-        position: absolute;
+        position:  absolute;
         border: solid;
+
         border-radius: 5%;
         font-style: italic;
-        font-size: larger;
+        font-size: small;
+        align-self: center;
+        margin: 5px;
         background: linear-gradient(rgb(147, 232, 253), rgb(92, 0, 128));
 }
 h1{
@@ -46,4 +49,5 @@ h1{
 p{
         color: aliceblue;
         margin-left: 40%;
+        margin-top: auto;
 }
